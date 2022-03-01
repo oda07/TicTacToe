@@ -1,0 +1,52 @@
+.container{
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 154, 162);
+    border: 1px solid black;
+    margin: 1px;
+    display: inline-block;   
+}
+
+.o{
+    position: relative;
+}
+.o:after{
+    position: absolute;
+    content: "\1F43A";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\1F411";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.reiniciar{
+    margin: 30px 0 0 0;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 70, 70);
+    text-transform: uppercase;
+}
